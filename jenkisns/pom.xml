@@ -1,3 +1,5 @@
+
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -6,9 +8,9 @@
 
  
 
-  <groupId>com.selenium</groupId>
+  <groupId>com.seleniumproject</groupId>
 
-  <artifactId>demo1</artifactId>
+  <artifactId>Jenkin_project</artifactId>
 
   <version>0.0.1-SNAPSHOT</version>
 
@@ -16,7 +18,7 @@
 
  
 
-  <name>demo1</name>
+  <name>Jenkin_project</name>
 
   <url>http://maven.apache.org</url>
 
@@ -44,7 +46,9 @@
 
     </dependency>
 
-    
+ 
+
+  
 
    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
@@ -60,11 +64,27 @@
 
  
 
+    
+
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+
+    <dependency>
+
+    <groupId>io.github.bonigarcia</groupId>
+
+    <artifactId>webdrivermanager</artifactId>
+
+    <version>5.5.2</version>
+
+    </dependency>
+
  
 
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+ 
 
-<dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+    <dependency>
 
     <groupId>org.testng</groupId>
 
@@ -74,7 +94,9 @@
 
     <scope>test</scope>
 
-</dependency>
+    </dependency>
+
+ 
 
     
 
@@ -85,6 +107,8 @@
   <build>
 
     <plugins>
+
+        
 
         <plugin>
 
@@ -104,6 +128,8 @@
 
         </plugin>
 
+        
+
         <plugin>
 
             <groupId>org.apache.maven.plugins</groupId>
@@ -118,13 +144,15 @@
 
                 <suiteXmlFiles>
 
-                    <suiteXmlFile>testng1.xml</suiteXmlFile>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
 
                 </suiteXmlFiles>
 
             </configuration>
 
         </plugin>
+
+        
 
     </plugins>
 
@@ -133,5 +161,3 @@
 </project>
 
  
-
-has context menu
