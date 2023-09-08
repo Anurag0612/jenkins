@@ -1,4 +1,4 @@
-package jenkins.jenkisns;
+package New_Project.New_Project;
 
 /**
  * Hello world!
